@@ -1,6 +1,6 @@
 # Lab 02: Explore insights and Create Alerts
 
-Goal:
+## Goal
 
 The goal of this lab will show the following:
 
@@ -138,3 +138,18 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 | Enable rule upon creation | Yes                                                          |
 | Suppress Alerts           | True                                                         |
 
+24. Click Save.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
+
+25. Click Enable.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
+
+26. You have now successfully created a Azure Monitor Log Alert Rule!
+
+## Conclusion and Next Steps:
+
+With the completion of the first two labs, you have explored how to create an Azure DevOps Pipeline to kick off automated UI tests. You have used these tests to send telemetry to a centralized data store, Application Insights, and configured Azure Monitor to alert you when an exception occurs.
+
+Building off this you can now move to schedule UI testing using Triggers in Pipelines, you can build additional Alerts based off Logs or Metrics and even create additional automation if an alert is triggered.
