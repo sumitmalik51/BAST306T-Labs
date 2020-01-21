@@ -10,7 +10,7 @@ Lab 01: [[Lab 01](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/ma
 
 
 
-Lab 03: [https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/Lab%2003%20Schedule%20Repeatable%20Test%20Pipeline.md](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/Lab 03 Schedule Repeatable Test Pipeline.md)
+Lab 03: https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/Lab%2003%20Schedule%20Repeatable%20Test%20Pipeline.md
 
 
 
