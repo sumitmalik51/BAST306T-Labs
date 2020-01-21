@@ -2,11 +2,9 @@
 
 The labs are located here:
 
-Lab 01: [[Lab 01](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/Lab%2001%20Configure%20Pipeline%20to%20run%20EasyRepro%20Tests%20and%20Review%20Insights.md)]([https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/Lab%2001%20Configure%20Pipeline%20to%20run%20EasyRepro%20Tests%20and%20Review%20Insights.md](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/Lab 01 Configure Pipeline to run EasyRepro Tests and Review Insights.md))
+Lab 01: https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/Lab%2001%20Configure%20Pipeline%20to%20run%20EasyRepro%20Tests%20and%20Review%20Insights.md
 
-[Lab 02]([[https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/Lab%2002%20Review%20Insights%20and%20Take%20Action.md](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/Lab 02 Review Insights and Take Action.md)]([https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/Lab%2002%20Review%20Insights%20and%20Take%20Action.md](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/Lab 02 Review Insights and Take Action.md))
-
-[https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/Lab%2001%20Configure%20Pipeline%20to%20run%20EasyRepro%20Tests%20and%20Review%20Insights.md]: Lab	"01"
+Lab 02: https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/Lab%2002%20Review%20Insights%20and%20Take%20Action.md
 
 
 
