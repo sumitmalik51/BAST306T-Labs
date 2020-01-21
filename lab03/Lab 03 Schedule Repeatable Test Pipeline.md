@@ -1,4 +1,4 @@
-# Lab 02: Explore insights and Create Alerts
+# Lab 01: Explore insights and Create Alerts
 
 Goal:
 
