@@ -1,140 +1,65 @@
-# Lab 01: Explore insights and Create Alerts
+# Lab 03: Schedule a Test Pipeline
 
-Goal:
+## Goal
 
 The goal of this lab will show the following:
 
-3. Review data in Application Insights
-4. Create a Azure Monitor Log Alert Rule based on App Insights data
+1. Use Triggers in Azure DevOps Pipelines to schedule UI tests
 
-## Review and Take Action on Insights
+## Schedule a Test Pipeline
 
 #### Objectives
 
 In this lab, you will:
 
-Work with Application Insights Kusto Queries.
+Configure Azure DevOps Pipelines
 
-Examine how to create an Azure Monitor Log Alert.
-
-
+Automate testing with EasyRepro
 
 #### Prerequisites
 
 Azure DevOps
 
-Azure
+EasyRepro
 
 #### Estimated Time to Complete This Lab
 
-30 minutes
+10 minutes
 
 #### Scenario
 
-In this exercise, you will go understanding how to create an Azure Monitor Log Alert based off telemetry gathered from your EasyRepro tests in the first lab.
+In this exercise, you will go understanding how to modify an existing Pipeline to run on a schedule.
 
-#### Navigate to Azure Application Insights Analytics
+#### Navigate to Azure Project Repository.
 
-1. Open a web browser and navigate to portal.azure.com.
+1. First, navigate to dev.azure.com and find your project.      
 
-2. Locate the Resource Group "**Ready2020-BAST306T**".
+ <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Project.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG" style="zoom:50%;" />
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/Azure-ResourceGroup-Items.JPG)
+2. Click Repositories or **Repos**.
 
-3. Locate the Application Insights resource called "**BAST306T**".
+ 
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-LogoAndName.JPG)
+ <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Repo.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Repo.JPG" style="zoom:50%;" />
 
-4. Open the resource.
+3. This is where you code resides. For this Exercise we are working with this code but will focus on another area of DevOps: Pipelines.
 
-5. Click on the Log Analytics button.
+#### Configure Existing Build Pipeline Trigger
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AppInsights-AnalyticsButton.JPG)
+4. Click on Pipelines:
+
+ <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build.JPG" style="zoom:50%;" />
+
+5. Locate the pipeline from the first lab. It should be titled "Lab 01 - Run Tests and Examine Results"
+6. Edit the Pipeline. The button should be located in the upper right hand corner.
+7. Click on the "Triggers" tab. This tab should be around the central area of the screen.
+8. Click the "+ Add" button in the Scheduled area.
+9. Review the default for scheduling pipelines. Here you should see days of the weeks and times that can be localized to your time zone. You will also see a checkbox for scheduling only if the source code has changed. Finally, a filter below allows for specifying which source to use.
+
+10. Using the same "+ Add" button you can add as many scheduled triggers as needed. Here is an example of scheduling the pipeline to run at midnight, 08:00am, noon, and 05:00pm:
 
 
-#### Run Exceptions Query and Create Log Alert
 
-6. Begin by inputting the following query in the Query Editor pane in the middle of the Analytics screen.
+## Conclusion and Next Steps
 
-   ![https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG)
-
-7. Confirm you see results in the results pane.
-
-8. Click the Log Alert button.
-
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-NewAlertRule.JPG)
-
-9. The Azure Monitor pane will become available allowing to create an Azure Monitor Log Alert.
-
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG)
-
-10. Begin by confirming the resource is your Application Insights resource.
-
-11. Then we need to configure the query we will use. In this case we will use the exception query to create an alert. First, confirm you see the following:
-
-    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-Default.JPG" style="zoom:80%;" />
-
-12. Click the Red Alert icon or the "Whenever the Custom log search is <logic undefined>" link.
-
-13. You will see a textbox to input a Kusto query.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-SearchQuery.JPG)
-
-14. Use the following query:
-
-    ```
-    exceptions
-    ```
-
-15. Set the threshold to be any number greater than zero.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
-
-13. Click the OK button.
-
-![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
-
-14. So far we have pointed our Azure Monitor alert rule to our Application Insights resource and provided a Kusto query to run every x minutes. If the query returns more than 0 records we will want to perform an action.
-
-#### Configure Azure Monitor Alert Action to Email
-
-15. We will now configure the alert to email us when the alert is triggered.
-
-16. Navigate to the Actions area of the Alert.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-Default.JPG)
-
-17. Click the "**Create action group**" button.
-
-18. Name the action group.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-NameYourActionGroup.JPG)
-
-19. Choose the Email/SMS/Phone option. Out of the available options check the email checkbox and provide your alias. By doing this you are telling the Azure Monitor Alert to email you when the condition configured above is met.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-EmailYourAliasField.JPG)
-
-20. Click Ok.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
-
-21. Now you should see the Action Group area again and this time you need to click the "Select action group" button.
-
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-Default.JPG)
-
-22. To finish up the Azure Monitor Alert, we will give it a name and description and severity level.
-
-23. Begin by adding the following:
-
-    
-
-![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
-
-| Property                  | Value                                                        |
-| ------------------------- | ------------------------------------------------------------ |
-| Alert rule name           | Email Your Alias and Kick off Logic App                      |
-| Description               | This alert is used for the BAST306T Lab 01. It will email a microsoft alias and fire a logic app. |
-| Severity                  | Sev 3                                                        |
-| Enable rule upon creation | Yes                                                          |
-| Suppress Alerts           | True                                                         |
-
+After this lab you should be able to take UI or any unit tests and schedule pipelines. This is useful to monitor how Dynamics is performing throughout the day. This technique can also be used to schedule gathering of telemetry.
