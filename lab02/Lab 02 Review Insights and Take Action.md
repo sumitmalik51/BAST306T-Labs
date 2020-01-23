@@ -88,11 +88,11 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Set the threshold to be any number greater than zero.
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
  
 1. Click the OK button.
 
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
+   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
 
 1. So far we have pointed our Azure Monitor alert rule to our Application Insights resource and provided a Kusto query to run every x minutes. If the query returns more than 0 records we will want to perform an action.
 
@@ -128,7 +128,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
     
 
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
+  ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
 
 | Property                  | Value                                                        |
 | ------------------------- | ------------------------------------------------------------ |
@@ -140,11 +140,11 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Click Save.
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
 
 1. Click Enable.
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
+   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
 
 1. You have now successfully created a Azure Monitor Log Alert Rule!
 
