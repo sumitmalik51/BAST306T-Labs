@@ -15,19 +15,19 @@ The goal of this lab will show the following:
 
 Lab 01 - Create an Azure DevOps Build Pipeline 
 
-### Locate Variables for use
+* Locate Variables for use
 
-### Configure Variables to use Instrumentation Key
+* Configure Variables to use Instrumentation Key
 
-### Configure VS Test Task to use Test Categories
+* Configure VS Test Task to use Test Categories
 
-### Run Pipeline
+* Run Pipeline
 
 Lab 02: Explore insights and Create Alerts
 
-### Review Data in Application Insights
+* Review Data in Application Insights
 
-### Create Azure Monitor Log Alert
+* Create Azure Monitor Log Alert
 
 
 
@@ -57,7 +57,7 @@ In this lab, you will:
 
 In this exercise, you will go understanding how to create an Azure DevOps Build Pipeline to run EasyRepro unit tests.
 
-## Navigate to Azure Application Insights
+### Navigate to Azure Application Insights
 
 1. Open a web browser and navigate to portal.azure.com.
 
