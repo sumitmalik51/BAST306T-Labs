@@ -190,23 +190,39 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. Map to the **settings** file located in our EasyRepro Source repository.
 
+    Default Window:
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-SettingsWindow-Default.JPG" style="zoom:50%;" />
+
+    EasyRepro.runsettings located in Window:
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-SettingsWindow-EasyReproRunSettings.JPG" style="zoom:50%;" />
+
     
 
 1. Verify the settings input textbox looks like this:
 
-    
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsModified.JPG" style="zoom:50%;" />
 
 1. Navigate to the Test Case Filter input textbox and input the following:
 
     ```
-    TestCaseFilter:"FullyQualifiedName=Microsoft.Dynamics365.UIAutomation.Sample.Web.WorkshopUnitTests"
+    TestCaseFilter:"FullyQualifiedName=Microsoft.Dynamics365.UIAutomation.Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs"
     ```
 
-1.  Choose the Save and Queue picklist and choose **Save**.
+    Before we move on, I want to point out what this means. What we are doing here is telling our testing tool that we only want to run tests that are contained in what's called a class. A class or test class, is a way for us to logically group tests that may be related e.g. *Creating accounts, opening leads*. 
 
-1.  Leave the pipeline in the default folder and select Save.
+    The **FullyQualifiedName** filter allows us to point to a specific class (or other items like individual tests, namespaces, etc). For this Pipeline we are telling the tooling to look in the **Microsoft.Dynamics365.UIAutomation.BAST306T** namespace for the **BAST306_Labs** class.
 
-1. Navigate to Builds and confirm you see your pipeline:
+    
+
+1. Choose the Save and Queue picklist and choose **Save**.
+
+    
+
+1.  Leave the pipeline in the default folder and select **Save**.
+
+1. Navigate to **Pipelines** on the left navigation and confirm you see your pipeline:
 
 ​      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
 
