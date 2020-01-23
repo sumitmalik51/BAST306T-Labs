@@ -188,7 +188,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
       Modified:
 
-      
+      <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestFiles-BAST306T.JPG" style="zoom:50%;" />
 
 1. Locate the **TestSettings** input textbox. Here we will override default connection parameters with our pipeline variables we just   created. Click the **ellipsis**.
 
