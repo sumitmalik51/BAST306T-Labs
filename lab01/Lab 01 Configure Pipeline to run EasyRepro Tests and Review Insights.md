@@ -85,69 +85,67 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 2. Click Repositories or **Repos**.
 
- 
-
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Repo.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Repo.JPG" style="zoom:50%;" />
 
 3. This is where you code resides. For this Exercise we are working with this code but will focus on another area of DevOps: Pipelines.
 
 #### Task 2: Create Build Pipeline using Visual Designer
 
-4. Click on Pipelines:
+1. Click on Pipelines:
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build.JPG" style="zoom:50%;" />
 
-5. Since we have a new project we should not be seeing any pipelines yet. Confirm you see this and click **New Pipeline**:
+1. Since we have a new project we should not be seeing any pipelines yet. Confirm you see this and click **New Pipeline**:
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG" style="zoom:50%;" />
 
-6. Here we will be using the Classic Editor or Visual Designer. It is worthwhile to note the use of YAML here. YAML allows us the ability to automate and scale our pipelines using a specialized format. Click on Use Classic Editor.
+1. Here we will be using the Classic Editor or Visual Designer. It is worthwhile to note the use of YAML here. YAML allows us the ability to automate and scale our pipelines using a specialized format. Click on Use Classic Editor.
 
-7. Select which source you want to base your build pipeline off of. For this workshop we are using Git:
+1. Select which source you want to base your build pipeline off of. For this workshop we are using Git:
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSource.JPG" style="zoom:50%;" />
 
-8. Choose your workspace, project and branch:
+1. Choose your workspace, project and branch:
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSourceBranch.JPG" style="zoom:50%;" />
 
-9. The branch here is key as this is where we will be committing our code which will fire off the Build Pipeline. Click **Continue**.
+1. The branch here is key as this is where we will be committing our code which will fire off the Build Pipeline. Click **Continue**.
 
-10. Now we are presented with a list of templates we can leverage. Alternatively we can build our own step by step. In this case we will leverage the .NET Desktop Application template. Select it and click Apply.
+1. Now we are presented with a list of templates we can leverage. Alternatively we can build our own step by step. In this case we will leverage the .NET Desktop Application template. Select it and click Apply.
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseDotNetAppTemplate.JPG" style="zoom:50%;" />
 
-11. First thing we will do here is configure which Agent Pool we want to use. Think of an Agent Pool as a container or virtual environment running your application. Select **VS 2019:**
+1. First thing we will do here is configure which Agent Pool we want to use. Think of an Agent Pool as a container or virtual environment running your application. Select **VS 2019:**
 
-12. Now we will rename the Build Pipeline. Let’s use “**Lab 01 - Run Test and Examine Results**”.
+1. Now we will rename the Build Pipeline. Let’s use “**Lab 01 - Run Test and Examine Results**”.
 
 #### Configure Pipeline to create and link work items
 
-13. Navigate to the left of the main pane and confirm you see the tab ‘**Options**’:
+1. Navigate to the left of the main pane and confirm you see the tab ‘**Options**’:
 
     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Options-Tab.JPG)
 
-14. Toggle the "Automatically link work items in this build" to enabled.
+1. Toggle the "Automatically link work items in this build" to enabled.
 
     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Options-AutoLinkNewWorkItems.JPG)
 
-15. Scroll down until you see the "**Create work items on failure**" toggle and enable.
+1. Scroll down until you see the "**Create work items on failure**" toggle and enable.
 
-16. Set the type of work item to "**Issue**"
+1. Set the type of work item to "**Issue**"
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Options-CreateWorkItemOnFailure.JPG" style="zoom:80%;" />
 
 #### Configure Pipeline Variables
 
-17. Navigate to the Variables tab.
+1. Navigate to the Variables tab.
 
     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-Tab.JPG)
 
-18. Here we will define four variables that will allow us to connect to a Dynamics 365 instance and send data to Application Insights. Confirm your variables look something like this:
+1. Here we will define four variables that will allow us to connect to a Dynamics 365 instance and send data to Application Insights. Confirm your variables look something like this:
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-DefaultVariables.JPG" style="zoom:50%;" />
 
-19. Now add the following variables:
+1. Now add the following variables:
 
     | Variable Name      | Variable Value                       |
     | ------------------ | ------------------------------------ |
@@ -162,31 +160,31 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 #### Configure Pipeline Tasks to Build and Run Unit Tests
 
-20. Begin by navigating to the Tasks tab:
+1. Begin by navigating to the Tasks tab:
 
       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-Tab.JPG)
 
-21. Navigate to the VS Test Task:
+1. Navigate to the VS Test Task:
 
-22. Locate the TestSettings input textbox. Here we will override default connection parameters with our pipeline variables we just created. Click the ellipsis.
+1. Locate the TestSettings input textbox. Here we will override default connection parameters with our pipeline variables we just   created. Click the ellipsis.
 
       <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsDefault.JPG" style="zoom:50%;" />
 
-23. Map to the settings file located in our EasyRepro Source repository.
+1. Map to the settings file located in our EasyRepro Source repository.
 
-24. Verify the settings input textbox looks like this:
+1. Verify the settings input textbox looks like this:
 
-25. Navigate to the Test Case Filter input textbox and input the following:
+1. Navigate to the Test Case Filter input textbox and input the following:
 
     ```
     TestCaseFilter:"FullyQualifiedName=Microsoft.Dynamics365.UIAutomation.Sample.Web.WorkshopUnitTests"
     ```
 
-26.  Choose the Save and Queue picklist and choose **Save**.
+1.  Choose the Save and Queue picklist and choose **Save**.
 
-27.  Leave the pipeline in the default folder and select Save.
+1.  Leave the pipeline in the default folder and select Save.
 
-28. Navigate to Builds and confirm you see your pipeline:
+1. Navigate to Builds and confirm you see your pipeline:
 
 ​      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
 
