@@ -30,7 +30,7 @@ In this lab, you will:
 
 In this exercise, you will go understanding how to modify an existing Pipeline to run on a schedule.
 
-#### Navigate to Azure Project Repository.
+#### **Navigate to Azure Project Repository.**
 
 1. First, navigate to dev.azure.com and find your project.      
 
@@ -40,11 +40,11 @@ In this exercise, you will go understanding how to modify an existing Pipeline t
 
  
 
-     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Repo.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Repo.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Repo.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Repo.JPG" style="zoom:50%;" />
 
 1. This is where you code resides. For this Exercise we are working with this code but will focus on another area of DevOps: Pipelines.
 
-#### Configure Existing Build Pipeline Trigger
+#### **Configure Existing Build Pipeline Trigger.**
 
 1. Click on Pipelines:
 
@@ -74,6 +74,6 @@ In this exercise, you will go understanding how to modify an existing Pipeline t
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-Build-Triggers-Schedule-Customized.JPG)
 
-## Conclusion and Next Steps
+## **Conclusion and Next Steps**
 
 After this lab you should be able to take UI or any unit tests and schedule pipelines. This is useful to monitor how Dynamics is performing throughout the day. This technique can also be used to schedule gathering of telemetry.
