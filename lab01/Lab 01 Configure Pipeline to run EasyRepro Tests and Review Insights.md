@@ -211,6 +211,20 @@ You should see something like this with values:
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsModified.JPG" style="zoom:50%;" />
 
+1. Navigate to the Override test run parameters input. Input the following:
+
+    ```
+    -OnlineUsername $(OnlineUsername) -OnlinePassword $(OnlinePassword) -OnlineCrmUrl $(OnlineOrg) -AzureKey $(InstrumentationKey) -BrowserType $(BrowserType)
+    ```
+
+    This is used to overwrite the runsettings file parameters with our variables we defined. This allows us to do a couple of things:
+
+    1. Not store out credentials in source
+
+    2. Provide dynamic credentials when we run a build. This means we can share this pipeline with multiple test users!
+
+       <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsModified.JPG" style="zoom:50%;" />
+
 1. Navigate to the Test Case Filter input textbox and input the following:
 
     ```
