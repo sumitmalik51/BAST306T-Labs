@@ -4,7 +4,7 @@
 
 The goal of this lab will show the following:
 
-1. Use Triggers in Azure DevOps Pipelines to schedule UI tests
+* Use Triggers in Azure DevOps Pipelines to schedule UI tests
 
 ## Schedule a Test Pipeline
 
