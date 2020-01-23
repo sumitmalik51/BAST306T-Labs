@@ -57,7 +57,7 @@ In this lab, you will:
 
 In this exercise, you will go understanding how to create an Azure DevOps Build Pipeline to run EasyRepro unit tests.
 
-### Navigate to Azure Application Insights
+**### Navigate to Azure Application Insights**
 
 1. Open a web browser and navigate to portal.azure.com.
 
