@@ -214,16 +214,26 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
     The **FullyQualifiedName** filter allows us to point to a specific class (or other items like individual tests, namespaces, etc). For this Pipeline we are telling the tooling to look in the **Microsoft.Dynamics365.UIAutomation.BAST306T** namespace for the **BAST306_Labs** class.
 
-    
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestFilterCriteria-EasyReproClass.JPG" style="zoom:50%;" />
+
+    Once you have added to the Test Case Filter, field it should look like this:
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestFilterCriteria-Modified-BAST306_Labs.JPG" style="zoom:50%;" />
 
 1. Choose the Save and Queue picklist and choose **Save**.
 
-    
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-SaveAndQueuePicklist.JPG" style="zoom:50%;" />
 
-1.  Leave the pipeline in the default folder and select **Save**.
+1. Leave the pipeline in the default folder and select **Save**.
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-SaveBuildPipeline.JPG" style="zoom:50%;" />
 
 1. Navigate to **Pipelines** on the left navigation and confirm you see your pipeline:
 
 ​      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
 
- 
+10. Click the **Run Pipeline** button.
+11. Confirm you see the Run Pipeline screen. This screen is useful for providing runtime variables. Example of this would be adding user story identifiers, login credentials, etc.
+12. Click the **Run** button.
+13. Confirm the Agent is queued or running.
+14. Now click into the Agent job 1 and you can see the pipeline in action.
