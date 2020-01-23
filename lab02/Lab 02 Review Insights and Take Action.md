@@ -4,8 +4,8 @@
 
 The goal of this lab will show the following:
 
-3. Review data in Application Insights
-4. Create a Azure Monitor Log Alert Rule based on App Insights data
+* Review data in Application Insights
+* Create a Azure Monitor Log Alert Rule based on App Insights data
 
 ## Review and Take Action on Insights
 
