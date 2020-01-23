@@ -184,6 +184,12 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-AgentImage.JPG" style="zoom:50%;" />
 
+1. Locate the Test files input box. You should see something that references the BuildConfiguration pipeline variable and the word test. This is a wildcard string looking for any test assemblies that include the name test. Our assembly is called "Microsoft.Dynamics365.UIAutomation.BAST306T" so we want to change the test string to say **BAST306T**:
+
+      Modified:
+
+      
+
 1. Locate the **TestSettings** input textbox. Here we will override default connection parameters with our pipeline variables we just   created. Click the **ellipsis**.
 
       <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsDefault.JPG" style="zoom:50%;" />
@@ -230,10 +236,24 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. Navigate to **Pipelines** on the left navigation and confirm you see your pipeline:
 
-​      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
+​      <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Pipeline-Run-ViewPipeline.JPG" style="zoom:50%;" />
 
 10. Click the **Run Pipeline** button.
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Pipeline-Run-RunPipeline.JPG" style="zoom:50%;" />
+
 11. Confirm you see the Run Pipeline screen. This screen is useful for providing runtime variables. Example of this would be adding user story identifiers, login credentials, etc.
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Pipeline-Run-RunPipelineWindow.JPG" style="zoom:50%;" />
+
 12. Click the **Run** button.
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Pipeline-Run-RunPipelineWindow-RunButton.JPG" style="zoom:50%;" />
+
 13. Confirm the Agent is queued or running.
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Pipeline-Queue-JobStatus.JPG" style="zoom:50%;" />
+
 14. Now click into the Agent job 1 and you can see the pipeline in action.
+
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-SaveBuildPipeline.JPG" style="zoom:50%;" />
