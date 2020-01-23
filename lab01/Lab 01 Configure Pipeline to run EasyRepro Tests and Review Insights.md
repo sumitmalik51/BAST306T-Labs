@@ -37,27 +37,27 @@ Lab 02: Explore insights and Create Alerts
 
 In this lab, you will:
 
-Work with Azure DevOps Build Pipelines.
+* Work with Azure DevOps Build Pipelines.
 
-Examine how to enable automatic work item creation.
+* Examine how to enable automatic work item creation.
 
-Work with Pipeline templates
+* Work with Pipeline templates
 
-Configure Visual Studio Test Task
+* Configure Visual Studio Test Task
 
 #### Prerequisites
 
-Azure DevOps
+* Azure DevOps
 
-#### Estimated Time to Complete This Lab
+### Estimated Time to Complete This Lab
 
-30 minutes
+* 30 minutes
 
-#### Scenario
+### Scenario
 
 In this exercise, you will go understanding how to create an Azure DevOps Build Pipeline to run EasyRepro unit tests.
 
-#### Navigate to Azure Application Insights
+### Navigate to Azure Application Insights
 
 1. Open a web browser and navigate to portal.azure.com.
 
@@ -77,7 +77,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 6. Store this value for later use.
 
-#### Navigate to Azure Project Repository.
+### Navigate to Azure Project Repository.
 
 1. First, navigate to dev.azure.com and find your project.      
 
@@ -89,7 +89,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 3. This is where you code resides. For this Exercise we are working with this code but will focus on another area of DevOps: Pipelines.
 
-#### Task 2: Create Build Pipeline using Visual Designer
+### Task 2: Create Build Pipeline using Visual Designer
 
 1. Click on Pipelines:
 
@@ -119,7 +119,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. Now we will rename the Build Pipeline. Let’s use “**Lab 01 - Run Test and Examine Results**”.
 
-#### Configure Pipeline to create and link work items
+### Configure Pipeline to create and link work items
 
 1. Navigate to the left of the main pane and confirm you see the tab ‘**Options**’:
 
@@ -135,7 +135,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Options-CreateWorkItemOnFailure.JPG" style="zoom:80%;" />
 
-#### Configure Pipeline Variables
+### Configure Pipeline Variables
 
 1. Navigate to the Variables tab.
 
