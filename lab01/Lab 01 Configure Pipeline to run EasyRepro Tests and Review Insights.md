@@ -1,6 +1,6 @@
 # Lab 01: Configure Pipeline to run EasyRepro Tests and Review Insights
 
-Goal:
+## Goal
 
 The goal of this lab will show the following:
 
@@ -8,28 +8,6 @@ The goal of this lab will show the following:
 2. Configure VS Test Task to use Test Categories
 3. Review data in Application Insights
 4. Create a Azure Monitor Log Alert Rule based on App Insights data
-
-
-
-## Labs
-
-Lab 01 - Create an Azure DevOps Build Pipeline 
-
-* Locate Variables for use
-
-* Configure Variables to use Instrumentation Key
-
-* Configure VS Test Task to use Test Categories
-
-* Run Pipeline
-
-Lab 02: Explore insights and Create Alerts
-
-* Review Data in Application Insights
-
-* Create Azure Monitor Log Alert
-
-
 
 ## Create an Azure DevOps Build Pipeline
 
@@ -167,6 +145,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
     | InstrumentationKey | your application insights key        |
 | BrowserType        | Chrome                               |
     
+
 You should see something like this with values:
     
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables.JPG" style="zoom:50%;" />
@@ -271,4 +250,17 @@ You should see something like this with values:
 
 14. Now click into the Agent job 1 and you can see the pipeline in action.
 
-    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-SaveBuildPipeline.JPG" style="zoom:50%;" />
+
+
+
+## **Conclusion and Next Steps**
+
+At this point you have now configured a Azure DevOps (ADO) Pipeline to build and run a Unit Test project. The Unit Tests performed multiple actions in a Power Apps environment and uploaded telemetry to Application Insights. 
+
+Throughout this lesson you learned how to work with variables and test criteria. Variables allow for reuse and scalability of pipelines allowing them to be cloned as templates or run with dynamic values.
+
+You also reviewed the Test Filter Criteria and how to run tests within a class. There are multiple ways to filter tests including Test Categories and Priorities, ways to run tests in multiple test assemblies and with dynamic run setting files.
+
+Now that these tests have run using the native ADO task, we have the ability to explore tests and tie failed tests to bugs and provide feedback to the development and support teams.
+
+In the following labs we will explore how to review telemetry delivered from tests and take action, increasing productivity and allowing us to focus on tackling the issue at hand in a more proactive manner.
