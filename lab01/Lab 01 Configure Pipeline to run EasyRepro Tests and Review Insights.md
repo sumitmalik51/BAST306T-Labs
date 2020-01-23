@@ -165,9 +165,10 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
     | OnlinePassword     | password for user                    |
     | OnlineOrg          | https://<readydemo>.crm.dynamics.com |
     | InstrumentationKey | your application insights key        |
-
-    You should see something like this with values:
-
+| BrowserType        | Chrome                               |
+    
+You should see something like this with values:
+    
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables.JPG" style="zoom:50%;" />
 
 4. Next to **OnlinePassword** where you input the value, you should see a <u>lock symbol</u>. **Click** this symbol so it shows that the variable is locked.
@@ -213,7 +214,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 1. Navigate to the Test Case Filter input textbox and input the following:
 
     ```
-    TestCaseFilter:"FullyQualifiedName=Microsoft.Dynamics365.UIAutomation.Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs"
+    FullyQualifiedName~Microsoft.Dynamics365.UIAutomation.Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs
     ```
 
     Before we move on, I want to point out what this means. What we are doing here is telling our testing tool that we only want to run tests that are contained in what's called a class. A class or test class, is a way for us to logically group tests that may be related e.g. *Creating accounts, opening leads*. 
