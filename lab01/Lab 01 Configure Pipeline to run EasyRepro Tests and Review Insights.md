@@ -125,11 +125,11 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-AgentVS2019.JPG" style="zoom:50%;" />
 
-1. Now we will rename the Build Pipeline. Let’s use “**Lab 01 - Run Test and Examine Results**”.
+1. Now we will rename the Build Pipeline. The default name may look something like below with the name of the project and the template we used. Let's rename this to something more relevant. Let’s use “**Lab 01 - Run Test and Examine Results**”.
 
-   Modified:
+   Default:
 
-   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-AgentVS2019.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-Rename.JPG" style="zoom:50%;" />
 
 ### **Configure Pipeline to create and link work items.**
 
@@ -157,7 +157,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-DefaultVariables.JPG" style="zoom:50%;" />
 
-1. Now add the following variables:
+1. Now add the following variables using the "**+ Add**" button underneath the predefined variables:
 
     | Variable Name      | Variable Value                       |
     | ------------------ | ------------------------------------ |
@@ -170,21 +170,31 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables.JPG" style="zoom:50%;" />
 
-#### **Configure Pipeline Tasks to Build and Run Unit Tests.**
+4. Next to **OnlinePassword** where you input the value, you should see a <u>lock symbol</u>. **Click** this symbol so it shows that the variable is locked.
 
-1. Begin by navigating to the Tasks tab:
+   
+
+#### Configure Pipeline Tasks to Build and Run Unit Tests.**
+
+1. Begin by navigating to the **Tasks** tab:
 
       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-Tab.JPG)
 
-1. Navigate to the VS Test Task:
+1. Navigate to the **VS Test Task**. This should look like the image below and maybe called VsTest - testAssemblies by default:
 
-1. Locate the TestSettings input textbox. Here we will override default connection parameters with our pipeline variables we just   created. Click the ellipsis.
+    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-AgentImage.JPG" style="zoom:50%;" />
+
+1. Locate the **TestSettings** input textbox. Here we will override default connection parameters with our pipeline variables we just   created. Click the **ellipsis**.
 
       <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsDefault.JPG" style="zoom:50%;" />
 
-1. Map to the settings file located in our EasyRepro Source repository.
+1. Map to the **settings** file located in our EasyRepro Source repository.
+
+    
 
 1. Verify the settings input textbox looks like this:
+
+    
 
 1. Navigate to the Test Case Filter input textbox and input the following:
 
