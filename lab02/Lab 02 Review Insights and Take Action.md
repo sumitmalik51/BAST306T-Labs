@@ -33,7 +33,7 @@ In this lab, you will:
 
 In this exercise, you will go understanding how to create an Azure Monitor Log Alert based off telemetry gathered from your EasyRepro tests in the first lab.
 
-#### Navigate to Azure Application Insights Analytics
+#### **Navigate to Azure Application Insights Analytics.**
 
 1. Open a web browser and navigate to portal.azure.com.
 
@@ -52,7 +52,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AppInsights-AnalyticsButton.JPG)
 
 
-#### Run Exceptions Query and Create Log Alert
+#### **Run Exceptions Query and Create Log Alert.**
 
 1. Begin by inputting the following query in the Query Editor pane in the middle of the Analytics screen.
 
@@ -96,7 +96,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. So far we have pointed our Azure Monitor alert rule to our Application Insights resource and provided a Kusto query to run every x minutes. If the query returns more than 0 records we will want to perform an action.
 
-#### Configure Azure Monitor Alert Action to Email
+#### **Configure Azure Monitor Alert Action to Email.**
 
 1. We will now configure the alert to email us when the alert is triggered.
 
@@ -148,7 +148,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. You have now successfully created a Azure Monitor Log Alert Rule!
 
-## Conclusion and Next Steps:
+## **Conclusion and Next Steps:**
 
 With the completion of the first two labs, you have explored how to create an Azure DevOps Pipeline to kick off automated UI tests. You have used these tests to send telemetry to a centralized data store, Application Insights, and configured Azure Monitor to alert you when an exception occurs.
 
