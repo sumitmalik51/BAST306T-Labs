@@ -63,17 +63,17 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 2. Locate the Resource Group "**Ready2020-BAST306T**".
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/Azure-ResourceGroup-Items.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/Azure-ResourceGroup-Items.JPG)
 
 3. Locate the Application Insights resource called "**BAST306T**".
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-LogoAndName.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-LogoAndName.JPG)
 
 4. Open the resource.
 
 5. Locate the Instrumentation Key in the upper right hand corner of the main pane.
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-InstrumentationKey.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-InstrumentationKey.JPG)
 
 6. Store this value for later use.
 
@@ -81,13 +81,13 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. First, navigate to dev.azure.com and find your project.      
 
- <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Project.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Project.JPG"       alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG"     style="zoom:50%;" />
 
 2. Click Repositories or **Repos**.
 
  
 
- <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Repo.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Repo.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Repo.JPG" alt="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/blob/master/lab01/images/ADO-BAST306T-Repo.JPG" style="zoom:50%;" />
 
 3. This is where you code resides. For this Exercise we are working with this code but will focus on another area of DevOps: Pipelines.
 
@@ -95,27 +95,27 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 4. Click on Pipelines:
 
- <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build.JPG" style="zoom:50%;" />
 
 5. Since we have a new project we should not be seeing any pipelines yet. Confirm you see this and click **New Pipeline**:
 
- <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG" style="zoom:50%;" />
 
 6. Here we will be using the Classic Editor or Visual Designer. It is worthwhile to note the use of YAML here. YAML allows us the ability to automate and scale our pipelines using a specialized format. Click on Use Classic Editor.
 
 7. Select which source you want to base your build pipeline off of. For this workshop we are using Git:
 
- <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSource.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSource.JPG" style="zoom:50%;" />
 
 8. Choose your workspace, project and branch:
 
-  <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSourceBranch.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSourceBranch.JPG" style="zoom:50%;" />
 
 9. The branch here is key as this is where we will be committing our code which will fire off the Build Pipeline. Click **Continue**.
 
 10. Now we are presented with a list of templates we can leverage. Alternatively we can build our own step by step. In this case we will leverage the .NET Desktop Application template. Select it and click Apply.
 
-  <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseDotNetAppTemplate.JPG" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseDotNetAppTemplate.JPG" style="zoom:50%;" />
 
 11. First thing we will do here is configure which Agent Pool we want to use. Think of an Agent Pool as a container or virtual environment running your application. Select **VS 2019:**
 
@@ -125,7 +125,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 13. Navigate to the left of the main pane and confirm you see the tab ‘**Options**’:
 
-  ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Options-Tab.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Options-Tab.JPG)
 
 14. Toggle the "Automatically link work items in this build" to enabled.
 
@@ -164,13 +164,13 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 20. Begin by navigating to the Tasks tab:
 
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-Tab.JPG)
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-Tab.JPG)
 
 21. Navigate to the VS Test Task:
 
 22. Locate the TestSettings input textbox. Here we will override default connection parameters with our pipeline variables we just created. Click the ellipsis.
 
-    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsDefault.JPG" style="zoom:50%;" />
+      <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsDefault.JPG" style="zoom:50%;" />
 
 23. Map to the settings file located in our EasyRepro Source repository.
 
@@ -188,6 +188,6 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 28. Navigate to Builds and confirm you see your pipeline:
 
-​    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
+​      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
 
  
