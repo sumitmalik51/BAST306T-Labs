@@ -126,8 +126,6 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Begin by adding the following:
 
-    
-
       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
 
 | Property                  | Value                                                        |
