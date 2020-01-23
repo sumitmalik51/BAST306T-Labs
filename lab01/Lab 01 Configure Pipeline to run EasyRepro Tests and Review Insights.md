@@ -211,7 +211,7 @@ You should see something like this with values:
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsModified.JPG" style="zoom:50%;" />
 
-1. Navigate to the Override test run parameters input. Input the following:
+1. Navigate to the **Override test run parameters** input. Input the following:
 
     ```
     -OnlineUsername $(OnlineUsername) -OnlinePassword $(OnlinePassword) -OnlineCrmUrl $(OnlineOrg) -AzureKey $(InstrumentationKey) -BrowserType $(BrowserType)
@@ -223,9 +223,9 @@ You should see something like this with values:
 
     2. Provide dynamic credentials when we run a build. This means we can share this pipeline with multiple test users!
 
-       <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestSettingsModified.JPG" style="zoom:50%;" />
+       <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-OverrideTestRunParams-Modified.JPG" style="zoom:50%;" />
 
-1. Navigate to the Test Case Filter input textbox and input the following:
+1. Navigate to the **Test Case Filter** input textbox and input the following:
 
     ```
     FullyQualifiedName~Microsoft.Dynamics365.UIAutomation.Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs
