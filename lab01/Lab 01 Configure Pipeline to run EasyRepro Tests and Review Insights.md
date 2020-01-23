@@ -95,7 +95,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build.JPG" style="zoom:50%;" />
 
-1. Since we have a new project we should not be seeing any pipelines yet. Confirm you see this and click **New Pipeline**:
+1. Since we have a new project we should not be seeing any pipelines yet. Confirm you see this and click **New Pipeline** or **Create Pipeline**:
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-NewPipelineButton.JPG" style="zoom:50%;" />
 
@@ -111,13 +111,25 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. The branch here is key as this is where we will be committing our code which will fire off the Build Pipeline. Click **Continue**.
 
-1. Now we are presented with a list of templates we can leverage. Alternatively we can build our own step by step. In this case we will leverage the .NET Desktop Application template. Select it and click Apply.
+1. Now we are presented with a list of templates we can leverage. Alternatively we can build our own step by step. In this case we will leverage the .NET Desktop Application template. Select it and click **Apply**.
 
    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseDotNetAppTemplate.JPG" style="zoom:50%;" />
 
-1. First thing we will do here is configure which Agent Pool we want to use. Think of an Agent Pool as a container or virtual environment running your application. Select **VS 2019:**
+1. First thing we will do here is configure which Agent Pool we want to use. Think of an Agent Pool as a container or virtual environment running your application. Locate the "Agent Specification" drop down. Select **Windows-2019:**
+
+   Default:
+
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-AgentDefault.JPG" style="zoom:50%;" />
+
+   Modified with "**windows-2019**":
+
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-AgentVS2019.JPG" style="zoom:50%;" />
 
 1. Now we will rename the Build Pipeline. Let’s use “**Lab 01 - Run Test and Examine Results**”.
+
+   Modified:
+
+   <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Pipeline-AgentVS2019.JPG" style="zoom:50%;" />
 
 ### **Configure Pipeline to create and link work items.**
 
