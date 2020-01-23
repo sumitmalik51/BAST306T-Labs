@@ -88,7 +88,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Set the threshold to be any number greater than zero.
 
-       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
  
 1. Click the OK button.
 
@@ -108,19 +108,19 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Name the action group.
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-NameYourActionGroup.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-NameYourActionGroup.JPG)
 
 1. Choose the Email/SMS/Phone option. Out of the available options check the email checkbox and provide your alias. By doing this you are telling the Azure Monitor Alert to email you when the condition configured above is met.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-EmailYourAliasField.JPG)
+   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-EmailYourAliasField.JPG)
 
 1. Click Ok.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
 
 1. Now you should see the Action Group area again and this time you need to click the "Select action group" button.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-Default.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-Default.JPG)
 
 1. To finish up the Azure Monitor Alert, we will give it a name and description and severity level.
 
@@ -128,7 +128,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
     
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
 
 | Property                  | Value                                                        |
 | ------------------------- | ------------------------------------------------------------ |
@@ -140,11 +140,11 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Click Save.
 
-       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
 
 1. Click Enable.
 
-       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Actions-SaveAndEnable.JPG)
 
 1. You have now successfully created a Azure Monitor Log Alert Rule!
 
