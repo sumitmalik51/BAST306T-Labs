@@ -56,11 +56,19 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Begin by inputting the following query in the Query Editor pane in the middle of the Analytics screen.
 
+     ```
+     exceptions
+     ```
+
      ![https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG)
+
+1. Click the **Run** button.
 
 1. Confirm you see results in the results pane.
 
-1. Click the Log Alert button.
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-NewAlertRule.JPG)
+
+1. Click the "**+ New alert rule**" button.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-NewAlertRule.JPG)
 
@@ -69,6 +77,8 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG)
 
 1. Begin by confirming the resource is your Application Insights resource.
+
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-NewAlertRule.JPG)
 
 1. Then we need to configure the query we will use. In this case we will use the exception query to create an alert. First, confirm you see the following:
 
@@ -80,7 +90,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-SearchQuery.JPG)
 
-1. Use the following query:
+1. Use the following query that we ran earlier that produced data:
 
     ```
     exceptions
@@ -89,14 +99,18 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 1. Set the threshold to be any number greater than zero.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
- 
+
+1. In the Evaluated based on section, set the Period (in minutes) value to **30** and the Frequency (in minutes) to **5**.
+
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
+
 1. Click the OK button.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
 
-1. So far we have pointed our Azure Monitor alert rule to our Application Insights resource and provided a Kusto query to run every x minutes. If the query returns more than 0 records we will want to perform an action.
+1. So far we have pointed our Azure Monitor alert rule to our Application Insights resource and provided a Kusto query to run every **5** minutes. If the query returns more than 0 records we will want to perform an action.
 
-#### **Configure Azure Monitor Alert Action to Email.**
+#### **Configure Azure Monitor Alert Action to Email**
 
 1. We will now configure the alert to email us when the alert is triggered.
 
@@ -106,21 +120,23 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Click the "**Create action group**" button.
 
-1. Name the action group.
+1. Name the action group "**Email Your Alias**".
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-NameYourActionGroup.JPG)
 
-1. Choose the Email/SMS/Phone option. Out of the available options check the email checkbox and provide your alias. By doing this you are telling the Azure Monitor Alert to email you when the condition configured above is met.
+1. Choose the Email/SMS/Phone option. Out of the available options check the **email** checkbox and provide your **alias**. By doing this you are telling the Azure Monitor Alert to email you when the condition configured above is met.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-NewActionGroup-EmailYourAliasField.JPG)
 
-1. Click Ok.
+1. Click **Ok**.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
 
-1. Now you should see the Action Group area again and this time you need to click the "Select action group" button.
+1. Now you should see the Action Group area again and this time you need to click the "**Select action group**" button.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-Default.JPG)
+
+1. Choose your action group and confirm you see it in the Actions list.
 
 1. To finish up the Azure Monitor Alert, we will give it a name and description and severity level.
 
