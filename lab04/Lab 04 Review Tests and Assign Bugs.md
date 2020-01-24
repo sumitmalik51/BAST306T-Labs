@@ -22,7 +22,6 @@ In this lab, you will:
 
  * Azure DevOps
 
- * EasyRepro
 
 #### Estimated Time to Complete This Lab
 
@@ -104,16 +103,26 @@ In this exercise, you will go understanding how to examine test outcomes. The re
 
 1. Here we will want to add a link to an existing work item "Test Case".
 
-1. Click on link work item.
+1. Click on "**+ Add link**" in the related work section located in the far right of the bug form.
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkTestCase.JPG)
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkWorkItemButton.JPG)
+
+      
+
+1. Select **Existing Item**
+
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkWorkItemButton-Existing.JPG)
 
 1. Choose ID **316**. You should see the work item pull up.
 
-1. Click Ok to link the work item.
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkTestCase.JPG)
 
-1. Click Save and Close to create the new bug.
+1. Click **Ok** to link the work item.
+
+1. Click **Save and Close** to create the new bug.
 
 ## **Conclusion and Next Steps**
+
+Once everything has been completed, feel free to run the pipeline again. You should see that the failed test is now linked to the existing bug and existing test case. You can now choose to add the existing build by choosing to add to linked bug instead of the create new bug from Step 12.
 
 After this lab you should be able to take any failed tests and create work items as shown in Lab 01. If tests are involved and some have failed we have worked through how to locate the failed tests and create bugs manually. The logical next step here is to automate the creation of the bug and have it assigned to a work item. I'd suggest reviewing the service hooks and Power Automate for a no/low code approach. Unfortunately this is out of scope of this lab but I will provide supplemental material to show how this can be done.
