@@ -56,11 +56,11 @@ In this exercise, you will go understanding how to modify an existing Pipeline t
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
 
-1. Click on the "Triggers" tab. This tab should be around the central area of the screen.
+1. Click on the "**Triggers**" tab. This tab should be around the central area of the screen.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-Build-Triggers-Tab.JPG)
 
-1. Click the "+ Add" button in the Scheduled area.
+1. Click the "**+ Add**" button in the Scheduled area.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-Build-Triggers-Schedule-Add.JPG)
 
@@ -68,7 +68,7 @@ In this exercise, you will go understanding how to modify an existing Pipeline t
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-Build-Triggers-Schedule-Default.JPG)
 
-1. Using the same "+ Add" button you can add as many scheduled triggers as needed. Here is an example of scheduling the pipeline to run at midnight, 08:00am, noon, and 05:00pm:
+1. Using the same "**+ Add**" button you can add as many scheduled triggers as needed. Here is an example of scheduling the pipeline to run at midnight, 08:00am, noon, and 05:00pm:
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-Build-Triggers-Schedule-Customized.JPG)
 

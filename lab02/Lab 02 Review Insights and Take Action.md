@@ -66,7 +66,7 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. Confirm you see results in the results pane.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-NewAlertRule.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AppInsights-Analytics-Results-Exceptions.JPG)
 
 1. Click the "**+ New alert rule**" button.
 
@@ -74,17 +74,17 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
 1. The Azure Monitor pane will become available allowing to create an Azure Monitor Log Alert.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-ExceptionsQuery.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Resource.JPG)
 
 1. Begin by confirming the resource is your Application Insights resource.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-Analytics-NewAlertRule.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Resource.JPG)
 
 1. Then we need to configure the query we will use. In this case we will use the exception query to create an alert. First, confirm you see the following:
 
      <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-Default.JPG" style="zoom:80%;" />
 
-1. Click the Red Alert icon or the "Whenever the Custom log search is <logic undefined>" link.
+1. **Click** the Red Alert icon or the "Whenever the Custom log search is <logic undefined>" link.
 
 1. You will see a textbox to input a Kusto query.
 
@@ -96,15 +96,15 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
     exceptions
     ```
 
-1. Set the threshold to be any number greater than zero.
+1. Set the **threshold** to be any number greater than zero.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
 
 1. In the Evaluated based on section, set the Period (in minutes) value to **30** and the Frequency (in minutes) to **5**.
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Condition-AlertLogic.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab02/images/AzureMonitor-Condition-EvalPeriod-Modified.JPG)
 
-1. Click the OK button.
+1. Click the **OK** button.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-OkButton.JPG)
 
@@ -136,11 +136,11 @@ In this exercise, you will go understanding how to create an Azure Monitor Log A
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Actions-Default.JPG)
 
-1. Choose your action group and confirm you see it in the Actions list.
+1. **Choose** your action group and confirm you see it in the Actions list.
 
 1. To finish up the Azure Monitor Alert, we will give it a name and description and severity level.
 
-1. Begin by adding the following:
+1. Begin by **adding** the following:
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AzureMonitor-Details-NameAndSevLevel.JPG)
 
