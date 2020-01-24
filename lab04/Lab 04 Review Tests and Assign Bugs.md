@@ -58,37 +58,57 @@ In this exercise, you will go understanding how to examine test outcomes. The re
 
 1. Begin by clicking in the pipeline.
 
-1. Next, locate the top record if there are multiple runs for the pipeline. To drill down into this particular run we need to click on the record.
+1. Next, locate the top record if there are multiple runs for the pipeline. 
+
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Overview.JPG)
+
+     To drill down into this particular run we need to click on the record.
 
      Before moving on, I want to point out the different tabs you see at the top, specifically the Analytics tab. This tab is useful to understand trends in our pipeline which can help us continuously check for quality. In a live project you should expect this to come in handy to help identify where items tied to new features or possible regressions have impacted the application. In this lab we won't much to look at but when you work with pipelines in the future keep this tab in mind!
 
      
 
-     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab03/images/ADO-BAST306T-Build-Queue-Lab01.JPG)
-
 1. Click on the Individual run and confirm you see the build summary, tests and code coverage tabs.
+
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-OverviewTab.JPG)
 
 1. The summary is useful for us to understand where the build pipeline failed. In some cases it may have failed in other places then where we expect, for instance it didn't build correctly or couldn't fetch the code to build. If everything works as expected we should see an error message similar to "*Test Run Failed.*"
 
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-SummaryTab-TestRunFailed.JPG)
+
 1. Click on the Tests tab at the top of the page.
+
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab.JPG)
 
 1. Confirm you see at least one failed test. Normally you would hope for all green but for this lab we are expecting a failed test so we can document and provide work item feedback.
 
 1. Near the middle of the page you should see tests that have failed. These will have red x next to them and may look like the following:
 
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests.JPG)
+
 1. Highlight  a single failed test.
 
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests.JPG)
+
 1. Click on the "**Bug v**" button.
+
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-BugDropdown.JPG)
 
 1. Click **Create Bug**.
 
 1. You'll be shown a modal which contains the new bug work item. Take a moment to check out the exception message, stack trace, linked build, etc.
 
+      
+
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-Overview.JPG)
+
 1. Here we will want to add a link to an existing work item "Test Case".
 
 1. Click on link work item.
 
-1. Choose ID xxx. You should see the work item pull up.
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkTestCase.JPG)
+
+1. Choose ID **316**. You should see the work item pull up.
 
 1. Click Ok to link the work item.
 
