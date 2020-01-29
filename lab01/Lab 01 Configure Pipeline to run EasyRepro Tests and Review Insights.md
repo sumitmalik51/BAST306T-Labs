@@ -146,8 +146,23 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 | BrowserType        | Chrome                               |
     
 
+Variable Name - Variable Value
+
+OnlineUsername - user@ondemandlabuser.onmicrosoft.com
+
+OnlinePassword - [**password for ondemandlabuser**]
+
+OnlineOrg - 
+
+InstrumentationKey - [**your application insights key**]
+
+BrowserType - Chrome
+
+<insert pic here>
+
 You should see something like this with values:
     
+
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables.JPG" style="zoom:50%;" />
 
 4. Next to **OnlinePassword** where you input the value, you should see a <u>lock symbol</u>. **Click** this symbol so it shows that the variable is locked.
