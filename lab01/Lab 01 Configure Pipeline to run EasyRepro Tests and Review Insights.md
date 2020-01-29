@@ -6,8 +6,6 @@ The goal of this lab will show the following:
 
 1. Configure Variables to push data to App Insights
 2. Configure VS Test Task to use Test Categories
-3. Review data in Application Insights
-4. Create a Azure Monitor Log Alert Rule based on App Insights data
 
 ## Create an Azure DevOps Build Pipeline
 
@@ -152,22 +150,60 @@ OnlineUsername - user@ondemandlabuser.onmicrosoft.com
 
 OnlinePassword - [**password for ondemandlabuser**]
 
+The **OnlineUsername** and **OnlinePassword** come from the lab instructions when you launched the lab. This should correlate to the login you used for the virtual environment.
+
+![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-Dynamics-SkeptraLab.jpg)
+
 OnlineOrg - 
 
-InstrumentationKey - [**your application insights key**]
+The OnlineOrg variable comes from the trial of Dynamics 365 that is available in the VM.
+
+To get to the correct Dynamics 365 org follow these steps:
+
+ 1. Open a browser in the VM
+
+ 2. Navigate to "https://home.dynamics.com"
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-HomeDynamicsPage.JPG)
+
+ 3. You may or may not get prompted to fill in your credentials. If so, these will be the same username and password used for the **OnlineUsername** and **OnlinePassword** variables.
+
+ 4. Click Sign In.
+
+ 5. Locate the apps in the https://home.dynamics.com app page. You may notice one or two with the same name. To determine which one we will need for our tests we need to open each and determine which has sample data for our tests.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-DynamicsInstances.jpg)
+
+ 6. Click the first one and wait for Dynamics 365 to render.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts.JPG)
+
+ 7. Click on Accounts.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts.JPG)
+
+ 8. Verify you see records in the middle window or view.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts-ActiveAccountsView.JPG)
+
+ 9. If not, go back to step 6 and try the other org and steps 6-8.
+
+ 10. Locate the URL at the top of the browser window and grab the portion that looks like this. https://<CrmOrg>.crm.dynamics.com/main.aspx
+
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-OrgUrl.JPG)
+
+InstrumentationKey - [**your application insights key** **from step 6** **at the beginning of the lab**]
+
+<img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-InstrumentationKey.JPG" style="zoom:150%;" />
 
 BrowserType - Chrome
 
-<insert pic here>
+You should see something like this with the values you entered:
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables.JPG)
 
-You should see something like this with values:
-    
+Next to **OnlinePassword** where you input the value, you should see a <u>lock symbol</u>. **Click** this symbol so it shows that the variable is locked.
 
-    <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables.JPG" style="zoom:50%;" />
-
-4. Next to **OnlinePassword** where you input the value, you should see a <u>lock symbol</u>. **Click** this symbol so it shows that the variable is locked.
-
-   
+![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Variables-ModifiedVariables-LockedPassword.JPG)
 
 #### Configure Pipeline Tasks to Build and Run Unit Tests.**
 
