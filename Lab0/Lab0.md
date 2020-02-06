@@ -1,14 +1,5 @@
 
-
-
-|    ADO – Work Item Type​                       | Title                                                                                                                                               |
-|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Feature (Link to Epic) Type: Business Process | Implementation of the system shoukd provide the CSR the ability to service the customer based on customer interaction and requests for information. |
-| User Story (Link to Feature)                  | 35.15.005 Create and Manage customer, POS                                                                                                           |
-| Requirements (Link to user story)             | As a CSR, I should be able to create customer record and process sales order, Sp that i can deliver good to the customer.                           |
-|                                               | Ability to populate and save the customer name and to the customer record. Ability to populate the customer telephone and email.                    |
-
-
+![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap0.png)
 
 ## Add a business outcome.
 
