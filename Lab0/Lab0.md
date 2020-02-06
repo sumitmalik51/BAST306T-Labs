@@ -9,35 +9,36 @@ Follow the steps outlined below:
 
 
 1. Navigate to https://dev.azure.com/odluserXXX/BAST306T/
+
 1. Hover over the Boards menu item on the left navigation bar, hover over Work items from the drop-down menu.  The Work items form    will open.
     
-   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap1.png)
+    ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap1.png)
    
    
 1. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar, and select Epic.  The New Epic form will open.
 
-   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap2.JPG)
+    ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap2.JPG)
 
 1. Fill out the New Epic form.  You enter title as Implementation of the system should provide the CSR the ability to service the customer based on customer interactions and requests for information. 
 
    ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap3.JPG)
      
-1.	Click Save & Close in the top right corner to save the information and create the Epic work item.
+1. Click Save & Close in the top right corner to save the information and create the Epic work item.
 
-  ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap4.JPG)
+   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap4.JPG)
   
   
 ## Add a business process.
 
 1. Click on Boards menu item on the left navigation bar, hover over Work items from the drop-down menu.  The Work items form will open.
 
-  ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap5.JPG)
+   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap5.JPG)
   
 1. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar and select Feature.  The New Feature form will open.
 
-  ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap6.JPG)
+   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap6.JPG)
 
-1. Fill out the New Feature form.  You enter title as 35.15.005 Create and Manage Customer, POS.
+1. Fill out the New Feature form. You enter title as 35.15.005 Create and Manage Customer, POS.
 
   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap7.JPG)
   
@@ -69,6 +70,7 @@ Follow the steps outlined below:
   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap12.JPG)
   
 1. In the same Work items form, click on the Link  Tab, Click + Add link button. Add link dialog page opens.
+
 1. Select Link Type Child and enter the ID you have previously created Feature (Business Process) and click OK button.
 
   ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap13.JPG)
