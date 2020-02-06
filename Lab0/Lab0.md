@@ -88,7 +88,7 @@ Follow the steps outlined below:**
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/Lab0/images/snap13.png)
 
 
-1. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar and select Requirement.  The New Requirement form will open.
+2. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar and select Requirement.  The New Requirement form will open.
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/Lab0/images/snap14.png)
 
