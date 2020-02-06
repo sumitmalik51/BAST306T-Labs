@@ -4,7 +4,7 @@
 ## Add a business outcome.
 
 
-For this lab exercise, create an Epic work items in the Azure DevOps team project.
+**For this lab exercise, create an Epic work items in the Azure DevOps team project.
 Follow the steps outlined below:
 
 
