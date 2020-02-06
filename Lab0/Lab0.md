@@ -1,11 +1,15 @@
 
 
 
+
+
+
+
 ## Add a business outcome.
 
 
 **For this lab exercise, create an Epic work items in the Azure DevOps team project.
-Follow the steps outlined below:
+Follow the steps outlined below:**
 
 
 1. Navigate to https://dev.azure.com/odluserXXX/BAST306T/
