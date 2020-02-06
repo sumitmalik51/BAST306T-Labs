@@ -39,13 +39,13 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 2. If prompted to login, use the provided credentials from the lab site.
 
-     <insert login pic>
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Azure-Login.JPG)
 
 3. Click on **Resource Groups**:
 
-     <insert resource group>
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Azure-Locate-ResourceGroup.JPG)
 
-4. Locate the Resource Group "**Ready2020-BAST306T**" 
+4. Locate the Resource Group "**Ready2020-BAST306T**" and click to open.
 
      *It may not look exactly like the image below*.
 
