@@ -87,7 +87,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. Here we will be using the Classic Editor or Visual Designer. It is worthwhile to note the use of YAML here. YAML allows us the ability to automate and scale our pipelines using a specialized format. **Click on Use Classic Editor.** Its near the bottom and can be overlooked so take time to ensure you choose this option.
 
-   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-ChooseSource.JPG)
+   ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-UseClassicEditor.JPG)
 
 1. Select which source you want to base your build pipeline off of. For this workshop we are using Git:
 
