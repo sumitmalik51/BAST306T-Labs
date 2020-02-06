@@ -37,21 +37,31 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
 
 1. Open a web browser and navigate to portal.azure.com.
 
-2. Locate the Resource Group "**Ready2020-BAST306T**".
+2. If prompted to login, use the provided credentials from the lab site.
+
+     <insert login pic>
+
+3. Click on **Resource Groups**:
+
+     <insert resource group>
+
+4. Locate the Resource Group "**Ready2020-BAST306T**" 
+
+     *It may not look exactly like the image below*.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/Azure-ResourceGroup-Items.JPG)
 
-3. Locate the Application Insights resource called "**BAST306T**".
+5. Locate the Application Insights resource called "**BAST306T**".
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-LogoAndName.JPG)
 
-4. Open the resource.
+6. Open the resource.
 
-5. Locate the Instrumentation Key in the upper right hand corner of the main pane.
+7. Locate the Instrumentation Key in the upper right hand corner of the main pane.
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/AppInsights-InstrumentationKey.JPG)
 
-6. Store this value for later use.
+8. Store this value for later use.
 
 ### **Navigate to Azure Project Repository.**
 
