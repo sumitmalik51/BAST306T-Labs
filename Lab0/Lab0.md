@@ -13,19 +13,19 @@ Follow the steps outlined below:**
 
 1. Navigate to https://dev.azure.com/odluserXXX/BAST306T/
 
-2. Hover over the Boards menu item on the left navigation bar, hover over Work items from the drop-down menu.  The Work items form    will open.
+1. Hover over the Boards menu item on the left navigation bar, hover over Work items from the drop-down menu.  The Work items form    will open.
     
     ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/Lab0/images/snap1.png)
    
-3. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar, and select Epic.  The New Epic form will open.
+1. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar, and select Epic.  The New Epic form will open.
 
     ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/Lab0/images/snap2.png)
 
-4. Fill out the New Epic form.  You enter title as Implementation of the system should provide the CSR the ability to service the customer based on customer interactions and requests for information. 
+1. Fill out the New Epic form.  You enter title as Implementation of the system should provide the CSR the ability to service the customer based on customer interactions and requests for information. 
 
     ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/Lab0/images/snap3.png)
      
-5. Click Save & Close in the top right corner to save the information and create the Epic work item.
+1. Click Save & Close in the top right corner to save the information and create the Epic work item.
 
    
   
