@@ -17,7 +17,7 @@ Follow the steps outlined below:
    
 1. In the Work items form, hover over the + New Work Item drop-down menu item on the upper navigation bar, and select Epic.  The New Epic form will open.
 
-    ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap2.JPG)
+    ![](https://github.com/sumitmalik51/BAST306T-Labs/blob/master/Lab0/images/snap1.png)
 
 1. Fill out the New Epic form.  You enter title as Implementation of the system should provide the CSR the ability to service the customer based on customer interactions and requests for information. 
 
