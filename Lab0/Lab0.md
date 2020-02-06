@@ -82,7 +82,7 @@ Follow the steps outlined below:**
 1. Click Save & Close in the top right corner to save the information and create the Feature work item.
 
 
-## Create Requirments.
+## Create Requirements.
 
 1. Click on Boards menu item on the left navigation bar, hover over Work items from the drop-down menu.  The Work items form will open.
 
