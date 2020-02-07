@@ -23,7 +23,7 @@ In this lab, you will:
 
 #### Prerequisites
 
-* Azure DevOps
+* Azure DevOps.
 
 ### Estimated Time to Complete This Lab
 
