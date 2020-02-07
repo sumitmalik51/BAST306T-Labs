@@ -2,8 +2,8 @@
 
 ## Goal
 
-- learn how to create a DevOps query as a basis for Dashboard
-- leartn how to create a burn-down chart
+- learn how to create a Azure DevOps Query
+- learn how to create a Burn-down chart
 - learn how to create and adjust Team Dashboard
 
 ## Create my Bug Query
