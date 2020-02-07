@@ -153,7 +153,7 @@ In this exercise, you will go understanding how to create an Azure DevOps Build 
     | OnlinePassword     | password for user                    |
     | OnlineOrg          | https://<readydemo>.crm.dynamics.com |
     | InstrumentationKey | your application insights key        |
-| BrowserType        | Chrome                               |
+    | BrowserType        | Chrome                               |
     
 
 Variable Name - Variable Value
@@ -267,7 +267,7 @@ Next to **OnlinePassword** where you input the value, you should see a <u>lock s
 
        <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-OverrideTestRunParams-Modified.JPG" style="zoom:50%;" />
 
-1. Navigate to the **Test Case Filter** input textbox and input the following:
+1. Navigate to the **Test Filter Criteria** input textbox and input the following:
 
     ```
     FullyQualifiedName~Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs
@@ -279,7 +279,7 @@ Next to **OnlinePassword** where you input the value, you should see a <u>lock s
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestFilterCriteria-EasyReproClass.JPG" style="zoom:50%;" />
 
-    Once you have added to the Test Case Filter, field it should look like this:
+    Once you have added to the Test Filter Criteria, field it should look like this:
 
     <img src="https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/ADO-BAST306T-Build-Classic-Tasks-VSTest-TestFilterCriteria-Modified-BAST306_Labs.JPG" style="zoom:50%;" />
 
