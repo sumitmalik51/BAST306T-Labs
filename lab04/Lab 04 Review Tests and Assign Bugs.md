@@ -113,9 +113,9 @@ In this exercise, you will go understanding how to examine test outcomes. The re
 
       ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkWorkItemButton-Existing.JPG)
 
-1. Choose Name **Test Case 1**. You should see the work item pull up. Ensure the Link type is **Parent**.
+1. Choose Name **User**. You should see the work item pull up. Ensure the Link type is **Parent**.
 
-      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkTestCase.JPG)
+      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab04/images/ADO-Build-Failed-Run-TestsTab-FailedTests-Bug-LinkUserStory.JPG)
 
 1. Click **Ok** to link the work item.
 
