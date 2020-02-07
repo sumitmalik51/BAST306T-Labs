@@ -176,7 +176,7 @@ To get to the correct Dynamics 365 org follow these steps:
 
  2. Navigate to "https://admin.powerplatform.microsoft.com"
 
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-HomeDynamicsPage.JPG)
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-PPAC.JPG)
 
  3. You may or may not get prompted to fill in your credentials. If so, these will be the same username and password used for the **OnlineUsername** and **OnlinePassword** variables.
 
@@ -188,7 +188,7 @@ To get to the correct Dynamics 365 org follow these steps:
 
  5. In the left navigation window, you will notice options to work within the Power Platform Admin Center. For this exercise we are going to open an environment. Begin by clicking on the **Environments** option.
 
-    
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-AdminPowerPlatform.JPG)
 
  6. Locate the environments in the Power Platform Admin Center. You may notice one or two with the same name. To determine which one we will need for our tests we need to open the one labeled "**Production**"
 
