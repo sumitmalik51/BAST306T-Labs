@@ -174,33 +174,47 @@ To get to the correct Dynamics 365 org follow these steps:
 
  1. Open a browser in the VM
 
- 2. Navigate to "https://home.dynamics.com"
+ 2. Navigate to "https://admin.powerplatform.microsoft.com"
 
     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-HomeDynamicsPage.JPG)
 
  3. You may or may not get prompted to fill in your credentials. If so, these will be the same username and password used for the **OnlineUsername** and **OnlinePassword** variables.
 
- 4. Click Sign In.
+    OnlineUsername - user@ondemandlabuser.onmicrosoft.com
 
- 5. Locate the apps in the https://home.dynamics.com app page. You may notice one or two with the same name. To determine which one we will need for our tests we need to open each and determine which has sample data for our tests.
+    OnlinePassword - [**password for ondemandlabuser**]
 
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-DynamicsInstances.jpg)
+ 4. Click **Sign In**.
 
- 6. Click the first one and wait for Dynamics 365 to render.
+ 5. In the left navigation window, you will notice options to work within the Power Platform Admin Center. For this exercise we are going to open an environment. Begin by clicking on the **Environments** option.
+
+    
+
+ 6. Locate the environments in the Power Platform Admin Center. You may notice one or two with the same name. To determine which one we will need for our tests we need to open the one labeled "**Production**"
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-PPAC-DynamicsInstances.jpg)
+
+ 7. You will see an ellipsis "..." near the word "Production". Click the ellipsis.
+
+    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-PPAC-OpenEnv.jpg)
+
+ 8. A picklist will appear with an option to "**Open environment**". **Click** this option. 
+
+ 9. **Wait** for Dynamics 365 to render.
 
     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts.JPG)
 
- 7. Click on Accounts.
+ 10. Click on **Accounts**.
 
     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts.JPG)
 
- 8. Verify you see records in the middle window or view.
+ 11. Verify you see records in the middle window or view.
 
-    ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts-ActiveAccountsView.JPG)
+     ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-Accounts-ActiveAccountsView.JPG)
 
- 9. If not, go back to step 6 and try the other org and steps 6-8.
+ 12. If not, go back to step 6 and try the other org labeled "**Sandbox**" and steps 6-8.
 
- 10. Locate the URL at the top of the browser window and grab the portion that looks like this. https://<CrmOrg>.crm.dynamics.com/main.aspx
+ 13. Locate the URL at the top of the browser window and grab the portion that looks like this. https://<CrmOrg>.crm.dynamics.com/main.aspx
 
      ![](https://raw.githubusercontent.com/aliyoussefi/BAST306T-Labs/master/lab01/images/D365-BAST306T-OrgUrl.JPG)
 
