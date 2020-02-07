@@ -8,9 +8,9 @@ Create my Bug Query
 Navigate to https://dev.azure.com/odluserXXX/BAST306T/
 
 
-Hover over the Boards menu item on the left navigation bar, hover over Queries from the drop-down menu. Click on the Queries and Query Form will open.
+* Hover over the Boards menu item on the left navigation bar, hover over Queries from the drop-down menu. Click on the Queries and Query Form will open.
 
-    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap1.png)
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap1.png)
 
 1. From the top menu, choose a New query:
 
@@ -22,11 +22,9 @@ Hover over the Boards menu item on the left navigation bar, hover over Queries f
  
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap3.png)
 
-
 1. Choose Save Query from the Top menu:
   
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap4.png)
-
 
 1. Name the query My Bugs, and chose Folder under Shared Queries BAST306T
   
@@ -37,11 +35,10 @@ Hover over the Boards menu item on the left navigation bar, hover over Queries f
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap6.png)
 
 
-
 ## Create a Burndown Chart
 
 Navigate to https://dev.azure.com/odluserXXX/BAST306T/
-Hover over the Boards menu item on the left navigation bar, hover over Backlogs from the drop-down menu. Click on the Sprints and Sprints Form will open.
+* Hover over the Boards menu item on the left navigation bar, hover over Backlogs from the drop-down menu. Click on the Sprints and Sprints Form will open.
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap7.png)
 
@@ -52,17 +49,14 @@ Hover over the Boards menu item on the left navigation bar, hover over Backlogs 
 1. Under Backlogs / Work items choose Tasks backlog
   
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap9.png)
-
   
 1. Under the Burndown on choose Sum of the Remaining Work
   
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap10.png)
 
-
 1. On the right […] choose Copy to Dashboard
   
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap11.png)
-
 
 1. Choose Team Dashboard (BAST306T Team – Overview
   
@@ -70,10 +64,9 @@ Hover over the Boards menu item on the left navigation bar, hover over Backlogs 
 
 ## Adjust dashboard
 
-Hover over the Overview menu item on the left navigation bar, hover over Dashboards from the drop-down menu. Click on the Dashboards and Dashboards form will open.
+* Hover over the Overview menu item on the left navigation bar, hover over Dashboards from the drop-down menu. Click on the Dashboards and Dashboards form will open.
   
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap13.png)
-
 
 1. Choose Edit Dashboard in the top Dashboard menu:
 
@@ -87,21 +80,17 @@ Hover over the Overview menu item on the left navigation bar, hover over Dashboa
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap16.png)
 
-
 1. From the left Configuration menu find your Query My Bugs and click on it with left mouse
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap17.png)
-
 
 1. Choose option State under Group by field 
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap18.png)
 
-
 1. Click Save on the bottom:
   
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap19.png)
-
 
 1. Re-order your dashboard to following view:
 
