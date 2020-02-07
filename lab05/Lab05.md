@@ -12,6 +12,7 @@ Navigate to https://dev.azure.com/odluserXXX/BAST306T/
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap1.png)
 
+
 1. From the top menu, choose a New query:
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap2.png)
