@@ -10,33 +10,31 @@ Navigate to https://dev.azure.com/odluserXXX/BAST306T/
 
 Hover over the Boards menu item on the left navigation bar, hover over Queries from the drop-down menu. Click on the Queries and Query Form will open.
 
-  ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap1.png)
-
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap1.png)
 
 1. From the top menu, choose a New query:
 
-    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap2.png)
-
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap2.png)
 
 1. Enter 2 Conditions:
   Work Item Type = Bug
   Assigned To = @Me
  
-    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap3.png)
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap3.png)
 
 
 1. Choose Save Query from the Top menu:
   
-    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap4.png)
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap4.png)
 
 
 1. Name the query My Bugs, and chose Folder under Shared Queries BAST306T
   
-    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap5.png)
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap5.png)
 
 1. Click OK to save your query
 
-    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap6.png)
+   ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap6.png)
 
 
 
