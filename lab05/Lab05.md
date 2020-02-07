@@ -1,12 +1,10 @@
 # Lab 05:
 
-In this Lab excersise you will:
+## Goal
 
 - learn how to create a DevOps query as a basis for Dashboard
 - leartn how to create a burn-down chart
 - learn how to create and adjust Team Dashboard
-
-Follow the steps outlined below.
 
 ## Create my Bug Query
 Navigate to https://dev.azure.com/odluserXXX/BAST306T/
