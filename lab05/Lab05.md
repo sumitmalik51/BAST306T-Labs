@@ -6,7 +6,8 @@ For this lab exercise, create a Burn down chart, add it to the Team Dashboard an
 Create my Bug Query
 Navigate to https://dev.azure.com/odluserXXX/BAST306T/
 
-Hover over the Boards menu item on the left navigation bar, hover over Queries from the drop-down menu. Click on the Queries and Query Form will open.
+Hover over the Boards menu item on the left navigation bar, hover over Queries from the drop-down menu.
+Click on the Queries and Query Form will open.
 
    ![](https://raw.githubusercontent.com/sumitmalik51/BAST306T-Labs/master/lab05/images/snap1.png)
 
