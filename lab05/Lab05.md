@@ -1,9 +1,14 @@
 # Lab 05:
 
+In this Lab excersise you will:
 
-BAST 306 
-For this lab exercise, create a Burn down chart, add it to the Team Dashboard and adjust team dashboard. Follow the steps outlined below:
-Create my Bug Query
+- learn how to create a DevOps query as a basis for Dashboard
+- leartn how to create a burn-down chart
+- learn how to create and adjust Team Dashboard
+
+Follow the steps outlined below.
+
+## Create my Bug Query
 Navigate to https://dev.azure.com/odluserXXX/BAST306T/
 
 Hover over the Boards menu item on the left navigation bar, hover over Queries from the drop-down menu.
