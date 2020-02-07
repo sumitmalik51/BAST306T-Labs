@@ -270,7 +270,7 @@ Next to **OnlinePassword** where you input the value, you should see a <u>lock s
 1. Navigate to the **Test Case Filter** input textbox and input the following:
 
     ```
-    FullyQualifiedName~Microsoft.Dynamics365.UIAutomation.Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs
+    FullyQualifiedName~Microsoft.Dynamics365.UIAutomation.BAST306T.BAST306_Labs
     ```
 
     Before we move on, I want to point out what this means. What we are doing here is telling our testing tool that we only want to run tests that are contained in what's called a class. A class or test class, is a way for us to logically group tests that may be related e.g. *Creating accounts, opening leads*. 
